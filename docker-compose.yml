@@ -2,7 +2,7 @@ services:
   docassemble:
     image: jhpyle/docassemble:latest
     hostname: docassemble
-    stopgrace_period: 1m30s
+    stopgrace_period: 1m
     environment:
       CONTAINERROLE=all
       DBPREFIX=postgresql
@@ -14,4 +14,3 @@ services:
       DAHOSTNAME=app.editioneo.com
       USELETSENCRYPT=false
       S3ENABLE=false
-    stop_grace_period: 1m
