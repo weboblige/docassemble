@@ -1,6 +1,6 @@
 services:
-	docassemble:
-		image: jhpyle/docassemble:latest
+  docassemble:
+    image: jhpyle/docassemble:latest
     hostname: docassemble
     containername: docassemble
     stopgrace_period: 1m30s
