@@ -6,7 +6,7 @@ services:
     stopgrace_period: 1m30s
     environment:
       – CONTAINERROLE=all
-      – DBPREFIX=postgresql+psycopg2://
+      – DBPREFIX=postgresql
       – DBNAME=docassemble
       – DBUSER=docassemble
       – DBPASSWORD=abc123
