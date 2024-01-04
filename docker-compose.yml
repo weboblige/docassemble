@@ -2,7 +2,6 @@ services:
   docassemble:
     image: jhpyle/docassemble:latest
     hostname: docassemble
-    stopgrace_period: 1m
     environment:
       CONTAINERROLE=all
       DBPREFIX=postgresql
