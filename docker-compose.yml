@@ -5,13 +5,13 @@ services:
     containername: docassemble
     stopgrace_period: 1m30s
     environment:
-      – CONTAINERROLE=all
-      – DBPREFIX=postgresql
-      – DBNAME=docassemble
-      – DBUSER=docassemble
-      – DBPASSWORD=abc123
-      – DBHOST=localhost
-      – USEHTTPS=false
-      – DAHOSTNAME=app.editioneo.com
-      – USELETSENCRYPT=false
-      – S3ENABLE=false
+      CONTAINERROLE=all
+      DBPREFIX=postgresql
+      DBNAME=docassemble
+      DBUSER=docassemble
+      DBPASSWORD=abc123
+      DBHOST=localhost
+      USEHTTPS=false
+      DAHOSTNAME=app.editioneo.com
+      USELETSENCRYPT=false
+      S3ENABLE=false
